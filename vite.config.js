@@ -36,6 +36,7 @@ export default defineConfig(({ command }) => {
       },
       outDir: '../dist',
       emptyOutDir: true,
+      external: ['izitoast']
     },
     plugins: [
       injectHTML(),
